@@ -1,0 +1,1390 @@
+/* دي هدفها تخلي كل ال مسافات ال بعملها بستخدام ال لbadding تتاخد من مساعه ال div في اي تصيم موقع هتشوفه هتلاقي دول */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.head{
+    width: 100%;
+    height:40px;
+    background-color: rgba(211, 174, 99, 0.7);
+    position: fixed;
+    z-index: 33;
+
+}
+
+.img{
+    width:65px ;
+    height: 40px;
+    margin-left: 40px;
+}
+.list{
+    list-style-type:none;
+    float:right;
+    margin: 10px auto;
+    margin-right: 120px;
+    margin-bottom: 5px;
+}
+
+.a:hover{
+    color: rgb(81, 81, 190);
+    text-decoration: underline;
+}
+.b:hover{
+    color: rgb(81, 81, 190);
+    text-decoration: underline;
+}
+.c:hover{
+    color: rgb(81, 81, 190);
+    text-decoration: underline;
+}
+.d:hover{
+    color: rgb(81, 81, 190);
+    text-decoration: underline;
+}
+
+
+
+.list  li{
+    display: inline-block;
+    margin-left: 25px;
+}
+.list li a{
+    color: azure;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/* ----------------------------------------------------------------section one  */
+
+.per{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+    background-image: url(../image/panner.png);
+    position: relative;
+}
+.layout{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(182, 199, 199,.4);
+
+}
+
+.contant{
+    position:absolute;
+
+    top: 50%;
+    right: 45%;
+    background-color: rgb(210, 121, 206,0.0);
+    transform: translate(-50%,-50%);
+    /* opacity:0.5 ; */
+
+}
+.p1{
+    font-size: xx-large;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-decoration: rgb(170, 57, 183);
+    text-transform: uppercase;
+    color: rgb(108, 73, 24);
+    
+    
+}
+.btn{
+    margin-left: 20px;
+    /* background-color: rgb(176, 130, 51) */
+    border-color: rgb(237, 173, 78);
+    border-radius: 8px;
+    width: 110px;
+    height: 40px;
+    color: rgb(146, 34, 34);
+    font-size: 17px;
+    border: 0;
+    text-transform: capitalize;
+ }
+
+.bt2{
+    margin-left: 120px;
+    /* background-color: rgba(203, 190, 47, 0.5) */
+    background-color: rgb(209, 161, 78)
+   
+    
+}
+
+.btn:hover{
+    background-color: rgb(205, 148, 101);
+
+} 
+
+.h2{
+    text-transform: lowercase;
+    text-align: center;
+    color: rgb(37, 29, 29);
+    font-style:oblique;
+    color: rgb(119, 88, 44);
+    margin: 12px 0px;
+}
+.bt1:hover{
+    background-color: rgb(226, 168, 147);
+}
+
+/* ---------------------------------------------section # */
+
+.about{
+    width: 60%;
+    height: 44vh;
+    background-color: #fff;
+    overflow: auto;
+    margin: auto;
+
+}
+
+.about_one{
+    position: relative;
+    width: 30%;
+    height: 220px ;
+    border-radius:9px;
+    /* background-color: rgb(191, 201, 218); */
+    background-color: rgba(197, 168, 120, 0.6);
+    float: left;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    text-transform: capitalize;
+    color: rgb(108, 73, 24);
+
+
+}
+.za{
+    margin: 0 2.5%;
+    margin-top: 15px;
+    color: rgb(108, 73, 24);
+}
+
+.about_one a i{
+    font-size:33px;
+    margin-top: 18px;
+    color: rgb(110, 80, 38);
+
+}
+.tit1{
+    font-size: 30px;
+    text-transform:uppercase;
+    margin-top: 5px;
+}
+
+.about_title{
+    text-align: center;
+    color: rgb(108, 73, 24);
+    font-size: 36px;
+    text-decoration: underline;
+    
+}
+ .about_one a{
+    margin-top: 10px;
+}
+.about_one::after{
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 100%;
+
+    right: 0;
+    bottom: 0;
+
+    background-color: rgb(120, 138, 139);
+
+    opacity: 1;  
+    transition: 1s;
+
+}
+
+.about_one:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(103, 103, 110);
+}
+.about_one a{
+    margin-top: 10px;
+}
+.about_one::before{
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 100%;
+
+    left: 0;
+    bottom: 0;
+
+    background-color: rgb(127, 130, 130);
+
+    opacity: 1;  
+    transition: 1s;
+
+}
+
+.about_one:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(118, 118, 128);
+}
+
+.sell{
+    width: 110px;
+    height: 20px;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+    border-color: rgb(146, 141, 140);
+    color: rgb(170, 130, 74);
+    display: block;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/* --------------------------------------section two----------------------------- */
+
+
+.container{
+    width: 80%;
+    height: 420px;
+    /* background-color: rgb(140, 202, 240); */
+    margin: auto;
+}
+
+.titlee{
+    color: rgb(108, 73, 24);
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(197, 158, 92,.6);
+    border-radius: 6px;
+}
+.titlee:hover{
+    color: rgb(202, 117, 86);
+    font-size: 30px; 
+   
+}
+
+.collection_item{
+    overflow: auto;
+}
+
+
+
+
+.collection_item{
+    float: left;
+    background-color: rgba(254, 208, 127,.6);
+    width: 30%;
+    margin-top: 20px;
+    /* padding: 3px 5px; */
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.al{
+    margin: 0px 5%;
+    margin-top: 20px;
+}
+   
+
+
+.collection_img{
+    background-color: rgba(231, 200, 161,.);
+    position: relative;
+    
+
+}
+.collection_img img{
+    width: 100%;
+    position: relative;
+    
+}
+.collection_overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(38, 26, 26, 0.4); */
+    
+    
+}
+.collection_overlay:hover{
+    background-color: rgba(21, 7, 7,.4);
+    
+
+}
+
+.collection_overlay a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(131, 134, 137);
+    color: #fff;
+    font-size: 19px;
+    /* margin-left: auto;  */
+
+}
+
+.collection_overlay a i{
+    line-height: 40px;
+    
+}
+
+.collection_item_title{
+    text-transform:capitalize;
+    color: rgb(108, 73, 24);
+}
+
+
+.collection_item_sp1{
+    color: rgb(108, 73, 24);
+}
+
+
+.collection_item:hover .collection_item_title{
+    color: #fff;
+}
+
+.collection_item:hover .collection_item_sp1{
+    color: #fff;
+}
+
+.collection_overlay a i{
+    opacity: 0;
+}
+.collection_overlay:hover a i{
+    opacity: 1;
+}
+
+.collection_overlay a{
+    background-color: rgb(154, 146, 146);
+    opacity: 0;
+}
+.collection_overlay:hover a{
+    background-color: rgb(154, 146, 146);
+    opacity: 1;
+}
+
+.collection_item::after{
+    position: absolute;
+    content: "";
+
+    width: 50%;
+    height: 0;
+
+    right: 0;
+    bottom: 0;
+
+    background-color: cadetblue;
+
+    opacity: 0;  
+    transition: 1s;
+
+}
+
+.collection_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+ position: relative;
+
+}
+
+.collection_radio{
+    color: rgb(166, 111, 51);
+   
+}
+
+/* .delete{
+    display: block;
+} */
+
+
+/* --------------------------------section3 */
+
+
+.memory{
+    width: 80%;
+    /* background-color: rgb(182, 115, 16); */
+    margin: auto;
+    margin-top: 15px;
+    height: 375;
+}
+
+.group_content{
+/* background-color: bisque; */
+
+}
+
+.group_item{
+    float:left;
+    width: 30%;
+    /* background-color: rgb(77, 193, 193); */
+    background-color: rgba(254, 208, 127,.6);
+    text-align: center;
+    /* padding: 12px 18px; */
+    position: relative;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+    margin-bottom: 13px;
+    
+}
+
+.den{
+    margin: 0 5%;
+    border-radius:10px;
+    /* margin-top: 10px */
+    margin-bottom: 13px;
+}
+
+.group_img {
+    position: relative;
+}
+
+
+.group_img img{
+    width: 100%;
+}
+
+
+.group_overley a {
+    line-height: 40px;
+    display: block;
+    background-color: rgba(159, 158, 158, .1);
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    opacity: 0;
+    
+}
+.group_overley a i{
+    line-height: 40px;
+}
+
+.group_item:hover .group_overley a {
+    opacity: 1;
+}
+
+
+.group_overley{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(12, 10, 10, .4); */
+    position: absolute;
+    top: 0;
+}
+.group_item:hover .group_overley{
+    background-color: rgba(28, 18, 18, .5);
+}
+
+
+.group_item_title{
+    text-transform: uppercase;
+    color: rgb(108, 73, 24);
+
+
+}
+.group_item:hover .group_item_title{
+    color: #fff;
+}
+
+
+.group_item_sp1{
+    color: rgb(108, 73, 24);
+    
+}
+
+
+.group_item:hover .group_item_sp1{
+ color: #fff;
+
+}
+.group_item::after{
+    position: absolute;
+    content: "";
+
+    width: 50%;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+
+    background-color: cadetblue;
+
+    opacity: 0;  
+    transition: 1s;
+    
+
+}
+
+.group_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+.group_radio{
+    color: rgb(166, 111, 51);
+}
+    
+/* -----------------------------------------------------section4  */
+
+
+
+.about_div4{
+    width: 80%;
+    margin: auto;
+   /* background-color: black; */
+   height: 380px;
+   margin-top: 15px;
+}
+
+.group_item{
+    margin-top: 10px;
+}
+
+.about_div5{
+    /* background-color: blue; */
+    width: 80%;
+    margin: auto;
+    height: 62vh;
+
+}
+
+.about_radio{
+    color: rgb(166, 111, 51);
+}
+
+.scound_head{
+    width: 80%;
+    height: 25px;
+    color: rgb(108, 73, 24);
+    background-color: ;
+    margin-bottom: auto;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(197, 158, 92,.6);
+    
+    }
+
+    .head2{
+        font-size: 25px;
+    }
+
+    .scound_head:hover{
+        height: 32px;
+
+    }
+
+    .scound_head:hover .head2{
+    font-size: 31px;
+
+    }
+
+
+
+/* -----------------------------------bracelet section 1--------------------------------- */
+
+
+.bracelet_container{
+    width: 80%;
+    /* background-color: blueviolet; */
+    margin: auto;
+    height: 400px;
+
+}
+
+.bracelet_item{
+    width: 30%;
+    float: left;
+    background-color: rgba(254, 208, 127,.6);
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.well{
+    margin: 0 5%;
+    margin-top: 10px;
+}
+
+.bracelet_img img{
+    width: 100%;
+
+}
+
+.bracelet_img{
+
+position: relative;
+}
+
+.bracelet_overley{
+ position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.bracelet_overley:hover{
+    background-color: rgba(21, 7, 7,.4);
+
+
+}
+
+.bracelet_overley a {
+    line-height: 40px;
+    display: block;
+    background-color: rgba(177, 175, 163, 0.1);
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    opacity: 0;
+}
+.bracelet_overley a i{
+    line-height: 40px;
+}
+
+.bracelet_overley:hover a{
+    opacity: 1;
+}
+
+
+.bracelet_name{
+    color: rgb(108, 73, 24);
+    text-transform:uppercase;
+    font-size:25;
+}
+
+
+
+.bracelet_item:hover .bracelet_name{
+    color: #fff;
+}
+
+/* .dell{
+    display: block;
+    color: rgb(166, 111, 51);
+} */
+
+
+.bracelet_rabio{
+    color: rgb(166, 111, 51);
+}
+
+.bracelet_item::after{
+    position: absolute;
+    content: "";
+    
+
+    width: 50%;
+    height: 0;
+
+    right: 0;
+    bottom: 0;
+    background-color: cadetblue;
+    opacity: 0;
+    transition: 1s;    
+
+}
+
+
+.bracelet_item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+/* ----------------------------bracelet2 section -------------------------------- */
+
+.bracelet2_container{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    /* background-color: black; */
+}
+
+/* ---------------------bracelet3 section----------------------------------------- */
+
+
+
+.bracelet3_container{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    /* background-color: black; */
+}
+
+/* -----------------------bracelet 4 section-------------------------------------- */
+
+.bracelet4_conraier{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    /* background-color: black; */
+}
+
+/* ---------------------------SERIES HEAD-------------------------------------------------- */
+
+
+.heed-series{
+    width: 80%;
+    height: 28px;
+    background-color: rgba(197, 158, 92,.6);
+    margin: auto;
+    border-radius: 4px;
+}
+
+.series{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(108, 73, 24);
+
+}
+
+.series:hover{
+    font-size: 30px;
+}
+
+.heed-series:hover{
+    height: 35px;
+}
+
+/* --------------------------section 1 series----------------------------------------------------------- */
+
+.series-container{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    margin: auto;
+}
+
+/* ------------------------------SETION 2 SERIES---------------------------------------------------------------------------------- */
+
+
+
+.series2-container{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    margin: auto;
+
+
+}
+
+
+/* ------------------------------SECTION 3 SERIES--------------------------------------------------------------------------------------- */
+
+.series3-container{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    margin: auto;
+
+
+}
+/* ------------------------------SECTION 4   SERIES-------------------------------------------------------------------------------------------- */
+
+.series4-container{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    margin: auto;
+}
+
+/* ----------------------------------- PRICE----------------------------------------------------------- */
+.pricing-container{
+    width: 80%;
+    height: 80vh;
+    background-color:#fff;
+    margin: auto;
+    padding: 0 50px;
+}
+.start_title{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: rgba(173, 180, 187,.3);
+    color: rgb(108, 73, 24);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pricing-items {
+    width: 30%;
+    height: 450px;
+    background-color: rgba(171, 163, 158,.7);
+    float: left;
+    text-align: center;
+    margin-top: 35px;
+    /* margin-left: 85px; */
+    border-radius: 9px;
+    position: relative;
+    
+}
+.goo{
+    margin: 0 5%;
+    margin-top: 10px;
+}
+
+.unorder{
+    list-style-type:none;
+    color: #fff;
+}
+
+.title-price{
+    margin-top: 60px;
+    text-transform: uppercase;
+    /* color: rgb(108, 73, 24); */
+    color: #fff;
+    font-size: 30px;
+}
+
+.start{
+    margin-top: 30px;
+    color: rgb(108, 73, 24);
+  
+}
+
+.unorder{
+    margin-top: 30px;
+    font-size: larger;
+}
+.ball{
+    background-color: rgb(228, 156, 79);
+    width: 180px;
+    height: 180px;
+    padding: 15px 0;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 30px;
+
+}
+.price-eqqel{
+    display: block;
+    color: #fff;
+
+}
+.price_enjoy{
+    margin-top: 7px;
+    font-size: 18px;
+    color: rgb(108, 73, 24);
+}
+
+.pricing-items::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0px;
+
+    top: 0;
+    right: 0;
+
+    background-color: rgba(231, 211, 132, 0.8);
+   
+    transition: 1s;
+    opacity: 1;
+}
+
+.pricing-items:hover::after{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 220, 165, 0.8);
+
+    opacity: .4;
+}
+
+
+
+
+
+
+/* ----------------------------------------US------------------------------------------------ */
+.us{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(235, 199, 162, .2);
+    margin: auto;
+position: relative;
+}
+
+.facebook1{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(218, 185, 133,.8);
+    float: left;
+    text-align: center;
+    margin-left: 470px;
+    margin-top: 10px;
+    border-radius: 25px;
+    }
+
+ .facebook1 a i{
+font-size: 40px;
+margin-top: 15px;
+
+ }
+ .us-pragraf{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(108, 73, 24);
+ }
+
+
+
+.instagram1{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(218, 185, 133,.8);
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.face{
+width: 130px;
+height: 25px;
+margin-top: 8px;
+border-radius: 5px;
+text-transform: capitalize;
+background-color: blanchedalmond;
+border-color: rgb(146, 141, 140);
+color: rgb(170, 130, 74);
+/* margin: auto; */
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.face2{
+    width: 130px;
+    height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: blanchedalmond;
+    border-color: rgb(146, 141, 140);
+    color: rgb(170, 130, 74);
+    /* margin: auto; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.instagram1 a i{
+    font-size: 35px;
+margin-top: 15px;
+}
+
+.us::after{
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 100%;
+
+    right: 0;
+    bottom: 0;
+
+    background-color: rgb(120, 138, 139);
+
+    opacity: 1;  
+    transition: 1s;
+
+}
+
+.us:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(103, 103, 110);
+}
+
+.us::before{
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 100%;
+
+    left: 0;
+    bottom: 0;
+
+    background-color: rgb(127, 130, 130);
+
+    opacity: 1;  
+    transition: 1s;
+
+}
+
+.us:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgb(118, 118, 128);
+}
+/* ------------------------------------------- our team------------------------------------------------------------------------ */
+
+
+.our-team{
+    width: 100%;
+    height: 380x;
+    background-color: rgba(227, 205, 179, .3);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+
+}
+.by{
+    font-size: 30px;
+    margin-left: 100px;
+    color: rgb(108, 73, 24);
+    text-transform: uppercase;
+    background-color: rgba(202, 210, 216,.4);
+
+}
+
+.menber1{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(199, 181, 158);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* padding-top: 5px; */
+    
+}
+.our-team-img img{
+    width: 100%;
+
+}
+.menber1:hover .our-team-img img{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(126, 111, 111);
+}
+
+.our-team-img{
+    
+    position: relative;
+}
+
+.ourteam-overley{
+    position: absolute;
+    top: 55%;
+   left: 35%;
+   font-size: 35px;
+   color: #fff;
+   opacity: 0;
+}
+.re{
+    color: rgb(121, 145, 219);
+}
+.menber1:hover .ourteam-overley{
+    opacity: 1;
+}
+
+.titllle{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.our-team-me{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+.H{
+    width: 250PX;
+    height: 200PX;
+    border: 5PX solid gray;
+}
+
+/* طرق الاخفاء  */
+.tit:focus{
+    /* opacity: 0; موجود  بس شفاف  */
+    /* visibility: hidden; مش موحود بس مكانه محجوز  */
+    /* display: none; بيتمسخ خالص يعتب ر كاني مكتبتوش اصلا  */
+    background-color: aqua;
+}
+.aa:focus{
+    background-color: aqua;
+    display: block;
+}
+/* دي خاصيه ال attrepute selector */
+[type=text]{
+    background-color: aqua;
+    border-radius: 5px;
+}
+[type=password]{
+    background-color: bisque;
+}
+
+.bot{
+    display: block;
+}
+
+.h:hover .tit{
+    
+    /* opacity: 1; */
+    /* visibility: visible; */
+    /* display: block; */
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+body{
+    height:3000px;
+}
+
+/* .la{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    position: fixed;
+    z-index: 44;
+    top: 0;
+    left: 0;
+    opacity: .5;
+  
+} */
+
+
+.parent{
+    position: relative;
+   
+
+}
+.dv1{
+    width: 250px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: absolute;
+    /* z-index: 0; */
+}
+.dv2{
+    width: 230px;
+    height: 180px;
+    background-color: rgb(182, 126, 42);
+    position: absolute;
+    /* z-index: 2; */
+}
+.dv3{
+    width: 210px;
+    height: 160px;
+    background-color: rgb(120, 20, 143);
+    position: absolute;
+    /* z-index: 1; */
+/* }
+.dv2:hover{
+    z-index: 3;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
